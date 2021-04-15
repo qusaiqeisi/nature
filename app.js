@@ -31,6 +31,4 @@ userChoose='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoak
 var imagesNumber=prompt('how many image?');
 	for(var i=0 ; i < imagesNumber; i++){
 	 document.write(userChoose);
-	}
-
-document.write(userChoose);
+  }
