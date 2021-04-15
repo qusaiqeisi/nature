@@ -1,7 +1,7 @@
 //console.log ('qusai')
 alert('welcom to wadiram');
 
-var wadiRum= prompt('please enter the camp name?!');
+var wadiRam= prompt('please enter the camp name?!');
 
 var wadiRum= prompt('please enter your time?!');
 
@@ -15,23 +15,22 @@ if(wadiRum >= 18){
   document.write('Good Morning');
   document.write('<img src="https://cf.bstatic.com/images/hotel/max1024x768/236/236994988.jpg">')
 }
-//while(wadiRam !== 'mars'&& wadiRam !== 'bedouin'){
-  //wadiRam = prompt('Please enter the name mars or bedouin');
-//}
+while(wadiRam !== 'mars'&& wadiRam !== 'bedouin'){
+  wadiRam = prompt('Please enter the name mars or bedouin');
+}
 
-//var userChoose;
+var userChoose;
 
 
-//if(wadiRum === 'mars'){
-//userChoose='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoak-JfCYdONQ2EiwN3xl3cGaeqvmjqEi4Zw&usqp=CAU">';
-//}else if (wadiRum === 'bedouin'){
+if(wadiRam === 'mars'){
+userChoose='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoak-JfCYdONQ2EiwN3xl3cGaeqvmjqEi4Zw&usqp=CAU">';
+}else if (wadiRam === 'bedouin'){
   userChoose='<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBw6YJR55FzWF2dDjgluO-ns4qyEi80RKDAA&usqp=CAU">';
-//}
-//document.writ(userChoose);
+}
 
-//var imagesNumber= prompt('How many image do you want???';
-
+var imagesNumber=prompt('how many image?');
 	for(var i=0 ; i < imagesNumber; i++){
 	 document.write(userChoose);
 	}
 
+document.write(userChoose);
