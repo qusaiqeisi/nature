@@ -1,0 +1,30 @@
+h1 {
+  text-align: center; 
+}
+
+nav ul li{
+  display: inline;
+  text-decoration: none;
+  margin: 20px;
+}
+
+body {
+  background-image: url(https://atlantisrumcamp.com/images/Atlantis%20Wadi%20Rum%20Camp%20and%20Tours%201.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+nav ul li a {
+  font-size: 25x;
+}
+
+p{
+  font-size: 30px;
+}
+
+footer{
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+}
